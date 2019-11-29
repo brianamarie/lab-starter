@@ -13,7 +13,9 @@ You're probably breaking down what you want to teach into smaller learning objec
 ### Course example: Writing Markdown
 
 - Identify the file type (.md)
+  - issue comment with the correct file type: `issue_comment.created`
 - Write headers
+  - new commit on a branch that is in a pull request: `pull_request.update`
 - Write bold and italics
 - Write unordered lists
 - Write ordered lists
