@@ -28,11 +28,11 @@ steps:
   description: # a description of the step, shown to the learner in the course progress page
   event: issue_comment.created
   actions:
-  - type: gate                            # using the gate action
-    left: '%payload.pull_request.title%'  # get the title from the pull request object inside of the payload
-    operator: ===                         # check for strict equality, see more at https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Comparison_Operators#Identity
-    right: Add name to README 
-    
+  - type: gate
+  left: '%payload.pull_request.title%'
+  operator: ===
+  right: Add name to README
+  
 # Step 2: Use a header
 # - title: # the title of the step, shown to the learner in the course progress page
 #  description: # a description of the step, shown to the learner in the course progress page
