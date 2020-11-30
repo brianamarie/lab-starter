@@ -1,4 +1,4 @@
-# Title
+# Make a title with markdown
 
 This is the paragraph to would describe the concept. It may link to other resources, or include images. Try to avoid _too_ much information and _too_ many external links. The purpose of these paragraphs is to give the user the information they need to complete the activity, understand what they're doing, and understand why they're doing it.
 
@@ -12,7 +12,7 @@ Here, we'll describe generally what the user is about to do.
 
 ### :keyboard: Activity: Specific description
 
-1. Step 1 in short sentence
+1. Do the thing with the markdown.
 2. Step 2 in short sentence
 3. Step 3 in short sentence
 
