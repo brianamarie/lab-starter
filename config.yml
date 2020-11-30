@@ -27,9 +27,12 @@ steps:
 - title: # the title of the step, shown to the learner in the course progress page
   description: # a description of the step, shown to the learner in the course progress page
   event: issue_comment.created
-  actions: # a list of the actions that will occur when the step is triggered by an event
-  - type: # the type of action, full list at https://lab.github.com/docs/actions
-
+  actions:
+  - type: gate                            # using the gate action
+    left: '%payload.pull_request.title%'  # get the title from the pull request object inside of the payload
+    operator: ===                         # check for strict equality, see more at https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Comparison_Operators#Identity
+    right: Add name to README 
+    
 # Step 2: Use a header
 # - title: # the title of the step, shown to the learner in the course progress page
 #  description: # a description of the step, shown to the learner in the course progress page
