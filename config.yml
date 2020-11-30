@@ -29,9 +29,9 @@ steps:
   event: issue_comment.created
   actions:
   - type: gate
-  left: '%payload.pull_request.title%'
-  operator: ===
-  right: Add name to README
+    left: '%payload.pull_request.title%'
+    operator: ===
+    right: Add name to README
   
 # Step 2: Use a header
 # - title: # the title of the step, shown to the learner in the course progress page
