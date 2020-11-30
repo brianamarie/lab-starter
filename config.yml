@@ -33,28 +33,28 @@ steps:
 # Step 2: Use a header
 # - title: # the title of the step, shown to the learner in the course progress page
 #  description: # a description of the step, shown to the learner in the course progress page
-#  event: # the event that will trigger the actions to be executed, full list at https://developer.github.com/v3/activity/events/types/
+#  event: issue_comment.created
 #  actions: # a list of the actions that will occur when the step is triggered by an event
 #  - type: # the type of action, full list at https://lab.github.com/docs/actions
 
 # Step 3: Make a list
 # - title: # the title of the step, shown to the learner in the course progress page
 #  description: # a description of the step, shown to the learner in the course progress page
-#  event: # the event that will trigger the actions to be executed, full list at https://developer.github.com/v3/activity/events/types/
+#  event: issue_comment.created
 #  actions: # a list of the actions that will occur when the step is triggered by an event
 #  - type: # the type of action, full list at https://lab.github.com/docs/actions
 
 # Step 4: Include a URL
 # - title: # the title of the step, shown to the learner in the course progress page
 #  description: # a description of the step, shown to the learner in the course progress page
-#  event: # the event that will trigger the actions to be executed, full list at https://developer.github.com/v3/activity/events/types/
+#  event: issue_comment.created
 #  actions: # a list of the actions that will occur when the step is triggered by an event
 #  - type: # the type of action, full list at https://lab.github.com/docs/actions
 
 # Step 5: Include an image
 # - title: # the title of the step, shown to the learner in the course progress page
 #  description: # a description of the step, shown to the learner in the course progress page
-#  event: # the event that will trigger the actions to be executed, full list at https://developer.github.com/v3/activity/events/types/
+#  event: issue_comment.created
 #  actions: # a list of the actions that will occur when the step is triggered by an event
 #  - type: # the type of action, full list at https://lab.github.com/docs/actions
 
